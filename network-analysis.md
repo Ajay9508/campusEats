@@ -1,24 +1,24 @@
 #Network Analysis
 
 ##Site tested
--url https://leetcode.com
--browser used: chrome
--chache settings: disabled
+- url https://leetcode.com
+- browser used: chrome
+- chache settings: disabled
 
 ## Reload summary
 
--Request count :23
--Total transfer size :11.7 kB
--DOMContentLoaded : 898 ms
--Load : 1.2 s
+- Request count :23
+- Total transfer size :11.7 kB
+- DOMContentLoaded : 898 ms
+- Load : 1.2 s
 
 ##slowest single resouce
--Name :https://leetcode.com/_next/data/l6Zunjp2DBjtqHlG8pJ8h/contest/weekly-contest-515.json?contestSlug=weekly-contest-515
--Size : 13.8 kB
--status : 200 OK
--Time : 28.44s
--Type : json
--why likely slow : The resource is a JSON file that took a long time to load, possibly due to server processing time or network latency.
+- Name :https://leetcode.com/_next/data/l6Zunjp2DBjtqHlG8pJ8h/contest/weekly-contest-515.json?contestSlug=weekly-contest-515
+- Size : 13.8 kB
+- status : 200 OK
+- Time : 28.44s
+- Type : json
+- why likely slow : The resource is a JSON file that took a long time to load, possibly due to server processing time or network latency.
 
 ##3XX/4XX observations
 
