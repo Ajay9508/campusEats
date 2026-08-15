@@ -26,6 +26,6 @@
 - 3XX Statuses: None detected; static assets and API routes responded directly without URI redirects (301/302) or cache revalidation hits (304), as cache settings were disabled.
 - 4XX Statuses: None detected; all requested endpoints, route dynamic chunks, and media assets resolved successfully with 200 OK status codes with zero missing assets (404) or permission blocks (401/403).
 
-** notes :**
+## Notes :
 - Optimization Focus: The primary performance bottleneck is the backend response latency (28.44s) for the dynamic contest JSON endpoint. Optimizing database indexing or caching backend responses for contest details will yield the largest performance gain.
 - Test Conditions: Since browser caching was disabled during this run, latency figures represent uncached, cold-fetch network transfers.
