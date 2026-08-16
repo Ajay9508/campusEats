@@ -1,4 +1,4 @@
-#HTTP Log
+# HTTP Log
 
 ## Request 1 -get Post 1
 
@@ -46,7 +46,7 @@ alt-svc: h3=":443"; ma=86400
 }
 ```
 
-**Note :**`200 OK` means the server successfully returned the resource. `Content-Type: application/json` means the body is JSON.
+**  Note :**`200 OK` means the server successfully returned the resource. `Content-Type: application/json` means the body is JSON.
 
 ---
 
@@ -161,8 +161,8 @@ alt-svc: h3=":443"; ma=86400
 }
 ```
 
-**Note:** `200 OK` means the user exists and was returned. `application/json` identifies JSON format.
-
+** Note:** `200 OK` means the user exists and was returned. `application/json` identifies JSON format.
+ 
 ---
 
 ## Request 4 -get Post 4
@@ -241,7 +241,7 @@ alt-svc: h3=":443"; ma=86400
 ]
 ```
 
-**Note:** `200 OK` means query request succeeded. `application/json` means JSON array/object response.
+** Note:** `200 OK` means query request succeeded. `application/json` means JSON array/object response.
 
 ---
 
